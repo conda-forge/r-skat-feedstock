@@ -17,11 +17,10 @@ source:
 build:
   merge_build_host: True  # [win]
   number: 1001
-  skip: true  # [win32]
-
   rpaths:
     - lib/R/lib/
     - lib/
+
 requirements:
   build:
     - posix                # [win]
