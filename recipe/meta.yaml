@@ -46,8 +46,7 @@ about:
     and SKAT-O. These methods aggregate individual SNP score statistics in a SNP set
     and efficiently compute SNP-set level p-values.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
