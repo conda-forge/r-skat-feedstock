@@ -3,7 +3,7 @@ About r-skat
 
 Home: https://CRAN.R-project.org/package=SKAT
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-skat-feedstock/blob/master/LICENSE.txt)
 
