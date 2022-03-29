@@ -30,14 +30,17 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-matrix
+    - r-rspectra
     - r-spatest
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-matrix
+    - r-rspectra
     - r-spatest
 
 test:
