@@ -1,4 +1,4 @@
-{% set version = "2.0.1" %}
+{% set version = "2.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SKAT_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SKAT/SKAT_{{ version }}.tar.gz
-  sha256: c8637cf5786b926f6bbef3f4ef1d3af5130cc0cfd9094d4835839724b2d0e8c7
+  sha256: 2b349896560ad18c3428e245fc25b17e9c2946676044fa56025ddf9c87ff08bf
 
 build:
   merge_build_host: true  # [win]
